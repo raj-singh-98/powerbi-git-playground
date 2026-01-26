@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Measure Killer Demo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0e0cd317-e97e-465a-8329-257d38d74b73"
+  }
+}

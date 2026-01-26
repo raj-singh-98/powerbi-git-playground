@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Measure Killer Demo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ac111936-5930-4282-8b76-62f777dd7477"
+  }
+}
