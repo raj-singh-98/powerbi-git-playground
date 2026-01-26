@@ -1,0 +1,7 @@
+# Power BI cache & temp
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+
+# OS noise
+.DS_Store
+Thumbs.db
