@@ -6,7 +6,7 @@ table 'New Measure'
 			SUMX(
 			    'Data',
 			    'Data'[Price] * 'Data'[Quantity]
-			)
+			) + 10
 		formatString: 0
 		lineageTag: 82986e4c-347a-4f4d-b48c-f0c32a8cc0d5
 
