@@ -13,15 +13,6 @@ table 'New Measure'
 	measure Heading = " Sales Report as on " & FORMAT(TODAY(), "dd-mmm-yy")
 		lineageTag: f4ae893a-0efa-43e9-b73c-bbff68af3aed
 
-	measure 'Sports Sale' =
-			
-			CALCULATE(
-			    [Total Sales],
-			    'Data'[Category] = "Sports"
-			)
-		formatString: 0
-		lineageTag: 3349e028-868d-4246-80d4-5b3ef107b466
-
 	partition 'New Measure' = m
 		mode: import
 		source =
