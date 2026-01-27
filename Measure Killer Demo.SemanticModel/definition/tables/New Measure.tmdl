@@ -10,6 +10,9 @@ table 'New Measure'
 		formatString: 0
 		lineageTag: 82986e4c-347a-4f4d-b48c-f0c32a8cc0d5
 
+	measure Heading = " Sales Report as on " & FORMAT(TODAY(), "dd-mmm-yy")
+		lineageTag: f4ae893a-0efa-43e9-b73c-bbff68af3aed
+
 	partition 'New Measure' = m
 		mode: import
 		source =
