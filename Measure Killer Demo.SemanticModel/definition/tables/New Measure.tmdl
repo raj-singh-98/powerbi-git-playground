@@ -13,7 +13,7 @@ table 'New Measure'
 	measure Heading = " Sales Report as on " & FORMAT(TODAY(), "dd-mmm-yy")
 		lineageTag: f4ae893a-0efa-43e9-b73c-bbff68af3aed
 
-	measure 'Conflict Check' = " Developer A added a new mesure " & + 10
+	measure 'Conflict Check' = " Developer B added a new mesure " & + 70
 		lineageTag: 3a935c88-0fc0-4a7f-a4bc-bae4bcc1d38d
 
 	partition 'New Measure' = m
