@@ -16,6 +16,9 @@ table 'New Measure'
 	measure 'Conflict Check' = " Developer B added a new mesure " & + 70
 		lineageTag: 3a935c88-0fc0-4a7f-a4bc-bae4bcc1d38d
 
+	measure 'Revert Check' = " Let's see how does revert work when we sqash & commit the merge and deleted the feature branch "
+		lineageTag: e012a3df-4867-412f-885f-52bf7f951242
+
 	partition 'New Measure' = m
 		mode: import
 		source =
